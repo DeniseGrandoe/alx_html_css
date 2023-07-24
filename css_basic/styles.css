@@ -1,0 +1,34 @@
+body, main {
+    display: flex;
+}
+
+main {
+    flex-direction: row;
+    flex: auto;
+    background-color: chartreuse;
+}
+
+body {
+    flex-direction: column;
+    background-color: bisque;
+
+}
+
+article {
+    flex: 2;
+    border-color: black;
+    border-width: 15px;
+    background-color: darkslategrey;
+
+}
+
+aside {
+    flex: 1;
+    background-color: aqua;
+    border: 5px;
+    border-color: blueviolet;
+}
+
+article, aside {
+    overflow-y: auto;
+}
